@@ -1,0 +1,17 @@
+{
+  "name": "knex-sandbox",
+  "version": "1.0.0",
+  "description": "My knex sandbox",
+  "main": "index.js",
+  "repository": "git@github.com:shuta13/knex-sandbox.git",
+  "author": "shuta13 <hollystarsun@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "knex": "^0.95.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "typescript": "^4.2.3"
+  }
+}
