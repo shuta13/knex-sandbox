@@ -4,7 +4,10 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      filename: './dev.sqlite3',
+      host: '127.0.0.1:5432',
+      user: 'root',
+      password: 'password',
+      database: 'knex_sandbox',
     },
     migrations: {
       directory: __dirname + '/src/db/migrations',
