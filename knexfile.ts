@@ -4,10 +4,9 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      host: '127.0.0.1:5432',
-      user: 'root',
-      password: 'password',
-      database: 'knex_sandbox',
+      user: 'user',
+      password: 'pass',
+      database: 'sandbox',
     },
     migrations: {
       directory: __dirname + '/src/db/migrations',
