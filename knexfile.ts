@@ -2,12 +2,12 @@
 
 module.exports = {
   development: {
-    client: 'sqlite3',
+    client: 'pg',
     connection: {
       filename: './dev.sqlite3',
     },
     migrations: {
-      directory: './src/migrations',
+      directory: __dirname + '/src/db/migrations',
       tableName: 'knex_migrations',
     },
   },
@@ -24,7 +24,7 @@ module.exports = {
       max: 10,
     },
     migrations: {
-      directory: './src/migrations',
+      directory: __dirname + '/src/db/migrations',
       tableName: 'knex_migrations',
     },
   },
@@ -41,7 +41,7 @@ module.exports = {
       max: 10,
     },
     migrations: {
-      directory: './src/migrations',
+      directory: __dirname + '/src/db/migrations',
       tableName: 'knex_migrations',
     },
   },
