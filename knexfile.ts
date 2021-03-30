@@ -10,6 +10,9 @@ module.exports = {
       directory: __dirname + '/src/db/migrations',
       tableName: 'knex_migrations',
     },
+    seeds: {
+      directory: __dirname + '/src/db/seeds',
+    },
   },
 
   staging: {
